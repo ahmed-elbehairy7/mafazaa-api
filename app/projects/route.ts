@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { resInit } from "../globals";
 
 type Project = {
@@ -35,6 +35,6 @@ const projects: Project[] = [
 	},
 ];
 
-export async function GET(req: NextRequest) {
+export async function GET() {
 	return NextResponse.json(projects, resInit);
 }
