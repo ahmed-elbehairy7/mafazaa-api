@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { resInit } from "../globals";
+import { resInit } from "../../globals";
 
 type Project = {
 	title: string;
