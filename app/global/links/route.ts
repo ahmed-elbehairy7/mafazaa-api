@@ -33,6 +33,10 @@ export async function GET() {
 	return NextResponse.json(links, resInit);
 }
 
+export async function OPTIONS() {
+	return NextResponse.json("", resInit);
+}
+
 type LinksDataType = {
 	socialLinks: SocialLink[];
 	support: string;

@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export async function GET() {
-	redirect("https://mafazaa.com");
+	redirect(process.env.MAIN_WEBSITE as string);
 }
