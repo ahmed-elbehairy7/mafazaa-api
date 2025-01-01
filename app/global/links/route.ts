@@ -20,10 +20,16 @@ const links: LinksDataType = {
 			src: process.env.HOST + "/icons/youtube.svg",
 			alt: "youtube",
 		},
+
 		{
 			href: `mailto:${supportEmail}`,
 			src: process.env.HOST + "/icons/mail.svg",
 			alt: "mail",
+		},
+		{
+			href: "https://github.com/mafazaa-org/",
+			src: process.env.HOST + "/icons/github-mark-white.svg",
+			alt: "github logo",
 		},
 	],
 	support: supportEmail,

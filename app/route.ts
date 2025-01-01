@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export async function GET() {
-	redirect(process.env.MAIN_WEBSITE as string);
+	redirect(process.env.MAIN_WEBSITE);
 }
