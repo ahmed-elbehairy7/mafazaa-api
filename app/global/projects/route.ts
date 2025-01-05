@@ -38,3 +38,7 @@ const projects: Project[] = [
 export async function GET() {
 	return NextResponse.json(projects, resInit);
 }
+
+export async function OPTIONS() {
+	return NextResponse.json("", resInit);
+}
