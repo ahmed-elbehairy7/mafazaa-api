@@ -3,9 +3,10 @@ import { resInit } from "../../globals";
 
 type Project = {
 	title: string;
-	en: string;
 	description: string;
 	image?: string;
+	en?: string;
+	link?: string;
 };
 
 const projects: Project[] = [
@@ -17,15 +18,15 @@ const projects: Project[] = [
 	},
 	{
 		title: "نباتا حسنا",
-		en: "nabataa",
+		link: "https://www.youtube.com/playlist?list=PLiICC_-DcP0SsG6GfDxMkzR-uo6emprzd",
 		description:
 			"مشروع يهدف إلى إنشاء جيل صالح بإذن الله تعالى عبر توفير/تجميع محتوى كرتوني إسلامي هادف و غير ذلك من الطرق التي تغرس الدين القويم و شرع الله في الطفل.",
 	},
-	{
-		title: "زدني علما",
-		en: "elmaa",
-		description: "مشروع يهدف إن شاء الله إلى إنشاء محتوى عربي عالى الجودة",
-	},
+	// {
+	// 	title: "زدني علما",
+	// 	en: "elmaa",
+	// 	description: "مشروع يهدف إن شاء الله إلى إنشاء محتوى عربي عالى الجودة",
+	// },
 ];
 
 export async function GET() {
