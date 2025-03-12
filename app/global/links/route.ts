@@ -38,7 +38,7 @@ const links: LinksDataType = {
 		{ href: "/contact", text: "تواصل معنا" },
 		{ href: "/idea", text: "فكرة المشروع" },
 		{ href: "/join", text: "انضم إلينا" },
-		{ href: "/support", text: "ادعمنا" },
+		{ href: "/support_us", text: "ادعمنا" },
 		{ href: "/", text: "الرئيسية" },
 	].map((v) => ({ href: process.env.MAIN_WEBSITE + v.href, text: v.text })),
 };
