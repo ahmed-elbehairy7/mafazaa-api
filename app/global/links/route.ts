@@ -6,7 +6,7 @@ const supportEmail = "support@mafazaa.com";
 const links: LinksDataType = {
 	socialLinks: [
 		{
-			href: "https://whatsapp.com/channel/0029VakgzRJ5kg7BkQFSJK36",
+			href: "https://whatsapp.com/channel/0029Vb5NRuqLY6dCU3qeXO2i",
 			src: process.env.HOST + "/icons/whatsapp.svg",
 			text: "whatsapp",
 		},
