@@ -11,7 +11,7 @@ const links: LinksDataType = {
 			text: "whatsapp",
 		},
 		{
-			href: "https://facebook.com/mafazaa.cic",
+			href: "https://facebook.com/mafazaa.unite",
 			src: process.env.HOST + "/icons/facebook.svg",
 			text: "facebook",
 		},
